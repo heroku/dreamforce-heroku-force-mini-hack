@@ -1,0 +1,17 @@
+<h1>Accounts</h1>
+
+<table>
+  <thead>
+    <% columns = @accounts.first.attrs.keys %>
+    <% columns.each do |column| %>
+    <th><%= column %></th>
+    <% end %>
+  </thead>
+  <% @accounts.each do |account| %>
+    <tr>
+      <% columns.each do |column| %>
+        <td><%= account.send(column) %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
