@@ -20,7 +20,7 @@ Create a Heroku app that connects to your Salesforce installation.
 - [Force.com REST API Developer's Guide](http://www.salesforce.com/us/developer/docs/api_rest/index.htm)
 - [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby)
 - [Force CLI](http://force-cli.herokuapp.com)
-- [Force.rb Project](https://github.com/heroku/force)
+- [Force.rb Project](https://github.com/heroku/force.rb)
 
 ## Complete The Hack
 
