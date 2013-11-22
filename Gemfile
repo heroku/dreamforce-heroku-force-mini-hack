@@ -5,4 +5,6 @@ gem 'force'
 
 gem 'sinatra', require: 'sinatra/base'
 
-gem 'unicorn'
+platform :ruby do # linux 
+	gem 'unicorn' 
+end 
